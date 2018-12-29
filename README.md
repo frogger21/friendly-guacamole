@@ -1,5 +1,5 @@
 # friendly-guacamole
-HP Filter in R
+HP Filter function in R
 
 I always wondered what this HP filter was actually doing. I prefer the log-quadratic trend though because it is simpler.
 
