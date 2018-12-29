@@ -1,7 +1,7 @@
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
-#							 #
+#					   #
 # HP Filter: Hodrick-Prescott Filter       #
-#						       #		
+#	                                   #	
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
 jHPfilter <- function(Y,lambda){
 	#The Hodrick-Prescott Filter
