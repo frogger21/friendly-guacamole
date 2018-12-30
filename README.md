@@ -6,5 +6,5 @@ I use the AirPassenger data inside R as an example to decompose it into "Trend" 
 
 ![Sample Data from R](https://github.com/frogger21/friendly-guacamole/blob/master/Routput.PNG)
 
-US Real GDP's cyclical component from HP Filter and Log Quadratic 
+Another example with seasonally adjusted quarterly US Real GDP's cyclical component from HP Filter and Log Quadratic 
 ![US Real GDP from R](https://github.com/frogger21/friendly-guacamole/blob/master/Rgdp.jpg)
