@@ -41,13 +41,15 @@ library(MASS)
 Y = log(AirPassengers) #log of monthly air passengers
 Trend = jHPfilter(Y,129600)
 Trend2 = Y-Y+Trend
+
+#3 by 2 charts
 par(mfrow=c(3,2))
 plot(Y,ylab="Log Passengers",type="l",main="Y = Monthly Air Passengers")
 lines(Trend2,col="red")
 plot(Trend2,type="l", main = "HP Trend",ylab = "HP Trend",col="red")
 Cyclical = Y-Trend
 plot(Cyclical, type="l", main = "Cyclical = Y minus HP Trend",col="blue")
-Qtrend = jQuadraticFilter(Y)
+Qtrend = jQuadraticFilter(Y) #using the quadratic filter as a comparison
 Qtrend2 = Y-Y+Qtrend
 plot(Qtrend2,type="l", main="Trend from Log-Quadratic" )
 Cyclical2 = Y - Qtrend2
